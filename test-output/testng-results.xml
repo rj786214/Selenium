@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T16:16:31 EST" name="Suite" finished-at="2023-03-08T16:16:40 EST" duration-ms="8634">
+  <suite started-at="2023-03-13T10:52:16 EDT" name="Default suite" finished-at="2023-03-13T10:52:26 EDT" duration-ms="9790">
     <groups>
     </groups>
-    <test started-at="2023-03-08T16:16:31 EST" name="Test" finished-at="2023-03-08T16:16:38 EST" duration-ms="6939">
-      <class name="co.xyz.selenium.webdriver.basic.Day1">
-        <test-method signature="invokeBrowser()[pri:0, instance:co.xyz.selenium.webdriver.basic.Day1@41a2befb]" started-at="2023-03-08T16:16:31 EST" name="invokeBrowser" finished-at="2023-03-08T16:16:38 EST" duration-ms="6904" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokeBrowser -->
-      </class> <!-- co.xyz.selenium.webdriver.basic.Day1 -->
-    </test> <!-- Test -->
-    <test started-at="2023-03-08T16:16:31 EST" name="Test1" finished-at="2023-03-08T16:16:40 EST" duration-ms="8634">
+    <test started-at="2023-03-13T10:52:16 EDT" name="Default test" finished-at="2023-03-13T10:52:26 EDT" duration-ms="9790">
       <class name="co.xyz.selenium.webdriver.basic.Day2">
-        <test-method signature="invokeBrowser1()[pri:0, instance:co.xyz.selenium.webdriver.basic.Day2@6db9f5a4]" started-at="2023-03-08T16:16:31 EST" name="invokeBrowser1" finished-at="2023-03-08T16:16:40 EST" duration-ms="8602" status="PASS">
+        <test-method signature="invokeBrowser1()[pri:0, instance:co.xyz.selenium.webdriver.basic.Day2@6aaceffd]" started-at="2023-03-13T10:52:16 EDT" name="invokeBrowser1" finished-at="2023-03-13T10:52:26 EDT" duration-ms="9751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser1 -->
       </class> <!-- co.xyz.selenium.webdriver.basic.Day2 -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -27,12 +27,13 @@ public class Day1 {
 			driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Book");
 			driver.findElement(By.id("nav-search-submit-button")).click();
 			jse = (JavascriptExecutor)driver;
-			jse.executeScript("scroll(0,550)");
-
-			//driver.findElement(By.xpath("//li[@id='p_lbr_books_series_browse-bin/It Ends with Us']/span/a/div/label/i")).click();
+			jse.executeScript("scroll(0,650)");
+			Thread.sleep(2000);
+			driver.findElement(By.cssSelector("#p_n_deal_type\\/23565506011 .a-size-base")).click();
+			Thread.sleep(3000);
 			driver.quit();
 			System.out.println(driver.getTitle());
-			//			searchBook();
+			
 		} 
 		
 		catch (Exception e) {

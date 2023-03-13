@@ -24,10 +24,13 @@ public class Day2 {
 			driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
 
 			driver.get("https://www.facebook.com");
+			Thread.sleep(500);
 			driver.findElement(By.name("email")).sendKeys("rj786214@gmail.com");
+			Thread.sleep(1500);
 			driver.findElement(By.name("pass")).sendKeys("rj786214@gmail.com");
+			Thread.sleep(500);
 			driver.findElement(By.name("login")).click();
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 			driver.quit();
 			System.out.println(driver.getTitle());
 		} 

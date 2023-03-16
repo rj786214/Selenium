@@ -1,0 +1,1 @@
+java -cp C:\Users\rj786\eclipse-workspace\Edureka_Selenium\bin;C:\Users\rj786\eclipse-workspace\Edureka_Selenium\lib\* org.testng.TestNG testng.xml
